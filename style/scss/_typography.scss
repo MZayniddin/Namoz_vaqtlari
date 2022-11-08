@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Jost';
+  src: url('../../font/Jost-Bold.eot');
+  src: url('../../font/Jost-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../font/Jost-Bold.woff2') format('woff2'),
+      url('../../font/Jost-Bold.woff') format('woff'),
+      url('../../font/Jost-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../../font/Jost-ExtraBold.eot');
+  src: url('../../font/Jost-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../../font/Jost-ExtraBold.woff2') format('woff2'),
+      url('../../font/Jost-ExtraBold.woff') format('woff'),
+      url('../../font/Jost-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../../font/Jost-Black.eot');
+  src: url('../../font/Jost-Black.eot?#iefix') format('embedded-opentype'),
+      url('../../font/Jost-Black.woff2') format('woff2'),
+      url('../../font/Jost-Black.woff') format('woff'),
+      url('../../font/Jost-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../../font/Jost-Medium.eot');
+  src: url('../../font/Jost-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../../font/Jost-Medium.woff2') format('woff2'),
+      url('../../font/Jost-Medium.woff') format('woff'),
+      url('../../font/Jost-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../../font/Jost-SemiBold.eot');
+  src: url('../../font/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../../font/Jost-SemiBold.woff2') format('woff2'),
+      url('../../font/Jost-SemiBold.woff') format('woff'),
+      url('../../font/Jost-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../../font/Jost-Regular.eot');
+  src: url('../../font/Jost-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../font/Jost-Regular.woff2') format('woff2'),
+      url('../../font/Jost-Regular.woff') format('woff'),
+      url('../../font/Jost-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+input,
+body {
+  font-family: 'Jost', sans-serif;
+}

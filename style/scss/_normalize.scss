@@ -1,0 +1,47 @@
+@use './variables';
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  height: fit-content;
+  background-image: url('../../img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+input {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: variables.$white-c;
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: variables.$dark-blue-c; 
+}
