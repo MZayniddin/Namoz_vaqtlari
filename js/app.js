@@ -15,17 +15,23 @@ elSelectBtn.addEventListener("click", () => {
   elSearchInput.focus();
 });
 
+let windowSize = window.matchMedia("(max-width: 680px)")
 elOptionList.addEventListener("click", (event) => {
   if (event.target.matches("li")) {
-    console.log(event.target)
     elSelectMenu.classList.remove("active");
-    elLocationIcon.style.display = "block";
-    displayNone(elOptionList, elCloseIcon);
+    media(windowSize);
     elSelected.innerText = event.target.innerText;
     elLocationCity.innerText = `${event.target.innerText} shahri`;
     renderPrayTimes();
   }
 });
+
+function media(size) {
+  if (size.matches) { // If media query matches
+    elLocationIcon.style.display = "block";
+    displayNone(elOptionList, elCloseIcon);
+  }
+}
 
 elLocationIcon.addEventListener("click", () => {
   elLocationIcon.style.display = "none";
