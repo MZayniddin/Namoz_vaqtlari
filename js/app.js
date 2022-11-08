@@ -44,7 +44,6 @@ elCloseIcon.addEventListener("click", () => {
   displayNone(elCloseIcon, elOptionList);
 });
 
-
 function renderList(data) {
   while (elOptionList.children[1]) {
     elOptionList.removeChild(elOptionList.children[1]);
